@@ -36,7 +36,7 @@ const Home = () => {
 
   return (
     <main className="shadow bg-slate-900 flex h-screen flex-col items-center justify-between p-24 text-white">
-        <div className=' w-96 h-full flex flex-col bg-white bg-opacity-20 backdrop:-blur-md rounded-lg'>
+        <div className='lg:w-3/4 lg:bg-transparent w-96 h-full flex flex-col bg-white bg-opacity-20 backdrop:-blur-md rounded-lg'>
           <div>
           <form onSubmit={handleSubmit}>   
             <div className="relative w-3/4 mx-auto my-3">
@@ -52,7 +52,7 @@ const Home = () => {
           <div className='max-h-screen overflow-y-auto flex flex-col flex-grow'>
           
           {cocktail.map((cocktail, index) =>(
-            <div key={index} class="max-w-sm bg-tranparent rounded-lg ">
+            <div key={index} class="grid grid-cols-4 max-w-sm bg-tranparent rounded-lg ">
         <img class="mx-auto rounded-lg w-full" src={cocktail.strDrinkThumb} alt="" />
     <div class="p-5">
         <a href="#">
