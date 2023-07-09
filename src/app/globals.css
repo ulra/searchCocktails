@@ -28,18 +28,18 @@ body {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 2px;
+  width: 4px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: transparent;
+  background: transparen;
   border-radius: 5px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: transparent;
+  background: #eee;
   border-radius: 5px;
 }
 

@@ -49,10 +49,10 @@ const Home = () => {
         </div>
     </form>
           </div>   
-          <div className='max-h-screen overflow-y-auto flex flex-col flex-grow'>
+          <div className='lg:px-1 max-h-screen overflow-y-auto flex flex-col flex-grow lg:grid lg:grid-cols-4 lg:gap-3'>
           
           {cocktail.map((cocktail, index) =>(
-            <div key={index} class="grid grid-cols-4 max-w-sm bg-tranparent rounded-lg ">
+            <div key={index} class="max-w-sm bg-tranparent rounded-lg ">
         <img class="mx-auto rounded-lg w-full" src={cocktail.strDrinkThumb} alt="" />
     <div class="p-5">
         <a href="#">
